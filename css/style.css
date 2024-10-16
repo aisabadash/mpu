@@ -2822,12 +2822,12 @@ body {
 }
 
 .prom__title {
-  font-size: clamp(2.5rem, 1.975rem + 2.63vw, 4.125rem);
+  font-size: 66px;
   font-weight: 400;
   max-width: 900px;
   padding-left: 15px;
   position: relative;
-  margin-bottom: clamp(5rem, 3.384rem + 8.08vw, 10rem);
+  margin-bottom: 180px;
 }
 .prom__title::before {
   content: "|";
@@ -2840,6 +2840,42 @@ body {
 }
 .prom__title::before {
   left: 0;
+}
+@media (max-width: 1200px) {
+  .prom__title {
+    font-size: 60px;
+    margin-bottom: 165px;
+  }
+}
+@media (max-width: 992px) {
+  .prom__title {
+    font-size: 55px;
+    margin-bottom: 140px;
+  }
+}
+@media (max-width: 768px) {
+  .prom__title {
+    font-size: 50px;
+    margin-bottom: 125px;
+  }
+}
+@media (max-width: 576px) {
+  .prom__title {
+    font-size: 45px;
+    margin-bottom: 110px;
+  }
+}
+@media (max-width: 425px) {
+  .prom__title {
+    font-size: 47px;
+    margin-bottom: 95px;
+  }
+}
+@media (max-width: 320px) {
+  .prom__title {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
 }
 
 .prom__title--bold {
