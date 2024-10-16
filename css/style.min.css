@@ -2827,7 +2827,7 @@ body {
   max-width: 900px;
   padding-left: 15px;
   position: relative;
-  margin-bottom: calc(80px + 80 * (100vw - 320px) / (var(--var-container-max-width) - var(--var-container-min-width)));
+  margin-bottom: clamp(5rem, 3.384rem + 8.08vw, 10rem);
 }
 .prom__title::before {
   content: "|";
